@@ -1,0 +1,86 @@
+body{
+    background: gray;
+    font-family: "Arial";
+}
+.title{
+    text-align: center;
+    font-size:20px;
+    font-weight: normal;
+    margin-left:36px;
+
+}
+.context{
+    margin-top: -25px;
+}
+ul{
+    list-style: none;
+}
+
+.df{
+    display: flex;
+}
+.mainContainer{
+    max-width:600px;
+    justify-content: space-between;
+}
+.inputs{
+    padding-top: 1px ;
+}
+.items{
+    flex-direction: column;
+    max-width: 190px;
+    margin-bottom: 50px ;
+    margin-top: -10px;
+}
+.item{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #989898;
+    /*padding: 1rem;*/
+    margin-bottom: 1px;
+    word-break: break-all;
+
+
+}
+.container{
+    background: white;
+    flex-direction: column;
+    max-width: 300px;
+    border-radius: 10px;
+    padding-top: 23px;
+    padding-right: 49px;
+    margin-left: 100px;
+
+}
+.add{
+    /*border-color: #989898;*/
+    background: none;
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-width: 1px;
+    color: #989898;
+}
+.add:hover{
+    color: black;
+}
+.delete{
+    border-style: none;
+    background: none;
+    float: right;
+    color: #989898;
+    position: relative;
+}
+.delete:hover{
+    color: black;
+}
+.mainInput{
+    border-color: #989898;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-width: 1px;
+
+}
+

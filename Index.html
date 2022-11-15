@@ -1,10 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="style.css">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<div class="mainContainer df">
+    <div class="container df">
+        <h1 class="title">HIGH</h1>
+            <div class="context">
+                <ul class="inputs df">
+                    <li class="input">
+                        <label>
+                            <input type="text" class="mainInput" placeholder="Добавить важные дела..." value="">
+                        </label>
+                    </li>
+                    <li class="input">
+                        <input type="button" class="add" value="+">
+                    </li>
+                </ul>
 
+                <ul class="items">
+                    <li class="item">
+                        <form action="" class="mainForm">
+                            <input type="button" class="delete df" value="x">
+                            <label class="item-text">
+                                <input type="radio" class="input-text" name="">
+                                Something beautiful
+                            </label>
+                        </form>
+                    </li>
+
+                    <li class="item">
+                        <form action="" class="mainForm">
+                            <input type="button" class="delete df" value="x">
+                            <label class="item-text">
+                                <input type="radio" class="input-text" name="">
+                                Hello World
+                            </label>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    <div class="container df">
+        <h1 class="title">LOW</h1>
+        <div class="context">
+
+            <ul class="inputs df">
+                <li class="input">
+                    <label>
+                        <input type="text" class="mainInput" placeholder="Добавить важные дела..." value="">
+                    </label>
+                </li>
+                <li class="input">
+                    <input type="button" class="add" value="+">
+                </li>
+            </ul>
+
+
+            <ul class="items">
+                <li class="item">
+                    <form action="" class="mainForm">
+                        <input type="button" class="delete df" value="x">
+                        <label class="item-text">
+                            <input type="radio" class="input-text" name="">
+                            Hallo epta
+                        </label>
+                    </form>
+                </li>
+
+                <li class="item">
+                    <form action="" class="mainForm">
+                        <input type="button" class="delete df" value="x">
+                        <label class="item-text">
+                            <input type="radio" class="input-text" name="">
+                            Ne nu rebyata
+                        </label>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 </body>
+<script src="app.js"></script>
 </html>
+
+
+
+
+<!--Сегодня вам предстоит научиться работать с полем input чтобы добавлять новые задачи в список. 
+Для этого будет не лишнем прочитать эту теорию про Формы.
+Ваша задача:
+добавить обработку для поля ввода по нажатию на enter 
+после получения текста из формы, создавать новый элемент (тот, где имя задачи, чек бокс и кнопка удалить)
+добавлять этот элемент в DOM
+ 
+да, поле для добавления новой задачи должно быть именно формой
+нет, весь остальной функционал сейчас делать не нужно, только форма - enter - создание дива - добавление в верстку 
+кажется все это вы уже делали в прошлых задачах -->
