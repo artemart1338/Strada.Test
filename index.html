@@ -1,10 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="app.css" />
+
 </head>
 <body>
-$END$
+<div class="containers dp ">
+    <div class="container ">
+        <h1 class="title">HIGH</h1>
+
+        <input type="text" class="inp" id="inp" placeholder="Добавить...">
+        <button class="inpButton" id="inpButton" type="submit">+</button>
+
+        <div class="items dp">
+            <div class="item dp">
+
+                <svg class="checkbox-symbol">
+                    <symbol id="check" viewbox="0 0 12 10">
+                        <polyline
+                                points="1.5 6 4.5 9 10.5 1"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                        ></polyline>
+                    </symbol>
+                </svg>
+
+                <div class="checkbox-container">
+                    <input class="checkbox-input" id="apple1" type="checkbox" />
+                    <label class="checkbox" for="apple1">
+                        <span>
+                          <svg width="12px" height="10px">
+                            <use xlink:href="#check"></use>
+                          </svg>
+                        </span>
+                        <span class="text-item">Some text
+                            </span>
+                    </label>
+                </div>
+                <button type="submit" class="closebtn">x</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="container ">
+        <h1 class="title">LOW</h1>
+
+        <input type="text" class="inp" placeholder="Добавить...">
+        <button class="inpButton" type="submit">+</button>
+
+        <div class="items dp">
+            <div class="item dp">
+
+                <svg class="checkbox-symbol">
+                    <symbol id="check" viewbox="0 0 12 10">
+                        <polyline
+                                points="1.5 6 4.5 9 10.5 1"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                        ></polyline>
+                    </symbol>
+                </svg>
+
+                <div class="checkbox-container">
+                    <input class="checkbox-input" id="apples2" type="checkbox" />
+                    <label class="checkbox" for="apples2">
+                        <span>
+                          <svg width="12px" height="10px">
+                            <use xlink:href="#check"></use>
+                          </svg>
+                        </span>
+                        <span class="text-item">Some text
+                            </span>
+                    </label>
+                </div>
+                <button type="submit" class="closebtn">x</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1 class="title">DONE</h1>
+
+
+
+        <div class="items dp">
+            <div class="item dp">
+                <button type="submit" class="closebtn">x</button>
+            </div>
+
+        </div>
+    </div>
+</div>
 </body>
+<script src="app.js"></script>
 </html>
