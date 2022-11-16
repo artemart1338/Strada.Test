@@ -47,3 +47,4 @@ function createTaskHtml(name){
     todoTask.prepend(todoCheckbox);
     return todoTask
 }
+//smth sada
